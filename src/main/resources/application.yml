@@ -1,0 +1,10 @@
+job:
+  oozie-url: http://localhost:11000/oozie
+  name-node: hdfs://sandbox-hdp.hortonworks.com:8020
+  resource-manager: sandbox-hdp.hortonworks.com:8050
+  jdbc-url: jdbc:hive2://sandbox-hdp.hortonworks.com:2181/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2
+  username: raj_ops
+  password: raj_ops
+  base-path: /user/raj_ops/workflow/movie
+  hive-sql: insert_movie_tmp.sql
+  use-system-libpath: true
