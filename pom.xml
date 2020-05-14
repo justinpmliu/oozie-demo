@@ -45,7 +45,7 @@
 		<dependency>
 			<groupId>org.apache.oozie</groupId>
 			<artifactId>oozie-core</artifactId>
-			<version>4.1.0</version>
+			<version>5.1.0</version>
 			<scope>provided</scope>
 			<exclusions>
 				<exclusion>
@@ -59,7 +59,7 @@
 		<dependency>
 			<groupId>org.apache.oozie</groupId>
 			<artifactId>oozie-client</artifactId>
-			<version>4.1.0</version>
+			<version>5.1.0</version>
 			<exclusions>
 				<exclusion>
 					<artifactId>slf4j-simple</artifactId>
